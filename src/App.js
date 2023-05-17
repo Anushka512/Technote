@@ -1,11 +1,12 @@
-
 import Mainnav from "./component/Main/Mainnav";
+import Auth from "./Pages/Auth_Teacher/Auth_T";
+
 function App() {
   return (
-    <div className="App">
+    <>
     <Mainnav/>
-     <h1>Hi from Technote</h1>
-    </div>
+    <Auth/>
+    </>
   );
 }
 
